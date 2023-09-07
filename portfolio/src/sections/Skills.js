@@ -1,5 +1,7 @@
 export default function Home() {
   return (
-    <h1>Skills</h1>
+    <div id="skills" className="section">
+      <h1>Skills</h1>
+    </div>
   );
 }

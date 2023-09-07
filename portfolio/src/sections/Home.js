@@ -1,5 +1,9 @@
+import '../style.css'
+
 export default function Home() {
   return (
-    <h1>Home</h1>
+    <div id="home" className="section">
+      <h1>Skyler Krouse</h1>
+    </div>
   );
 }

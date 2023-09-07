@@ -9,17 +9,23 @@ const tabs = [
 export default function Navbar() {
 
   const nav = tabs.map(tab =>
-    <button key={tab.id} onClick={() => scrollTo(tab.text)}>
+    <button key={tab.id} onClick={() => scrollTo(tab.id)}>
       {tab.text}
     </button>
   );
 
   function scrollTo(scrollTo) {
-    console.log('Scroll to ' + scrollTo);
+    var element = document.getElementById(scrollTo);
+    element.scrollIntoView({ behavior: "smooth" });
   }
 
   return (
-    <div>
+    <div
+      style={{
+        position: "sticky",
+        top: 0
+      }}
+    >
       {nav}
     </div>
   );

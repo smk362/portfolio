@@ -1,5 +1,11 @@
 export default function Home() {
   return (
-    <h1>About Me</h1>
+    <div id="about" className="section"
+      style={{
+        background: "pink"
+      }}
+    >
+      <h1>About Me</h1>
+    </div>
   );
 }
