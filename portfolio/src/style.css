@@ -1,3 +1,30 @@
+button {
+  background-color: blueviolet;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+
+}
+
+.nav {
+  background-color: blueviolet;
+}
+
 .section {
   height: 100VH;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }

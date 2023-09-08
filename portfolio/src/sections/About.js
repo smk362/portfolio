@@ -5,7 +5,10 @@ export default function Home() {
         background: "pink"
       }}
     >
-      <h1>About Me</h1>
+      <div className="header">
+        <h1>About Me</h1>
+      </div>
+      <div></div>
     </div>
   );
 }

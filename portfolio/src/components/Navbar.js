@@ -1,3 +1,5 @@
+import '../style.css'
+
 const tabs = [
   { id: "home", text: "Home" },
   { id: "about", text: "About Me" },
@@ -20,10 +22,10 @@ export default function Navbar() {
   }
 
   return (
-    <div
+    <div className="nav"
       style={{
         position: "sticky",
-        top: 0
+        top: 0,
       }}
     >
       {nav}
