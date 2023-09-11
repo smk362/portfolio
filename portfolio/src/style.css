@@ -2,16 +2,32 @@ button {
   background-color: blueviolet;
   color: white;
   font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: none;
+  flex: 1;
+
+}
+
+h1 {
+  font-size: 60px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: row;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: none;
-
 }
 
 .nav {
   background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
 }
 
 .section {
@@ -26,7 +42,7 @@ button {
   align-items: center;
   /* justify-content: center; */
   height: 100%;
-  padding-left: 50px;
+  padding-left: 5%;
   padding-right: 50px;
   background-color: aqua;
 }
@@ -38,4 +54,8 @@ button {
   justify-content: center;
   height: 100%;
   background-color: bisque;
+}
+
+.contact {
+  flex: 1;
 }
