@@ -8,7 +8,7 @@ export default function Home() {
       <div className="header">
         <h1>About Me</h1>
       </div>
-      <div></div>
+      <div className="content"></div>
     </div>
   );
 }

@@ -4,8 +4,7 @@ const tabs = [
   { id: "home", text: "Home" },
   { id: "about", text: "About Me" },
   { id: "skills", text: "Skills" },
-  { id: "projects", text: "Past Projects" },
-  { id: "contact", text: "Contact Me" }
+  { id: "projects", text: "Past Projects" }
 ];
 
 export default function Navbar() {

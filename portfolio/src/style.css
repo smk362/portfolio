@@ -22,9 +22,20 @@ button {
 
 .header {
   display: flex;
+  flex: 30;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   height: 100%;
   padding-left: 50px;
   padding-right: 50px;
+  background-color: aqua;
+}
+
+.content {
+  display: flex;
+  flex: 70;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: bisque;
 }

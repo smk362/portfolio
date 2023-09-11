@@ -4,7 +4,7 @@ export default function Home() {
       <div className="header">
         <h1>Past Projects</h1>
       </div>
-      <div></div>
+      <div className="content"></div>
     </div>
   );
 }
